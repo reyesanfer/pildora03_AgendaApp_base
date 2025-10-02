@@ -34,4 +34,8 @@ public class Agenda {
     public List<Group> getGroupList() {
         return groupList;
     }
+
+    public int contactCount() {
+        return contactList.size();
+    }
 }

@@ -21,11 +21,11 @@ public class Group {
         return contacts;
     }
 
-    public addContact(Contact contact) {
+    public void addContact(Contact contact) {
         contacts.add(contact);
     }
 
-    public removeContact(int index) {
+    public void removeContact(int index) {
         contacts.remove(index);
     }
 

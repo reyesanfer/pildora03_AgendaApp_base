@@ -4,6 +4,7 @@ public abstract class Contact {
 
     private String telephone;
     private String email;
+    private Address address;
 
     public Contact(String email, String telephone) {
         this.email = email;
@@ -24,6 +25,14 @@ public abstract class Contact {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(String street, int number, int floor, String city) {
+        this.address = new Address(street, number, floor, city);
     }
 
     // Abstract method

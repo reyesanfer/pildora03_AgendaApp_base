@@ -5,10 +5,12 @@ public class Person extends Contact {
     private String firstName;
     private String lastName;
 
-    public Person(String email, String telephone, String firstName, String lastName) {
+    public Person(String firstName, String lastName, String email, String telephone,
+                  String street, int number, int floor, String city) {
         super(email, telephone);
         this.firstName = firstName;
         this.lastName = lastName;
+        setAddress(street, number, floor, city);
     }
 
     @Override

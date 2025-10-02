@@ -25,8 +25,16 @@ public class Group {
         contacts.add(contact);
     }
 
-    public removeContact(Contact contact) {
-        contacts.remove(contact);
+    public removeContact(int index) {
+        contacts.remove(index);
+    }
+
+    public int contactCount() {
+        return contacts.size();
+    }
+
+    public Contact getContact(int index) {
+        return contacts.get(index);
     }
 
 }

@@ -8,9 +8,9 @@ public class Member {
     private Contact contact;
     private LocalDateTime date;
 
-    public Member(Contact contact, LocalDateTime date) {
+    public Member(Contact contact) {
         this.contact = contact;
-        this.date = date;
+        this.date = LocalDateTime.now();
     }
 
     public Contact getContact() {

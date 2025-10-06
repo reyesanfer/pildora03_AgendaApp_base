@@ -15,6 +15,7 @@ direction BT
 	    +addGroup()
 	    +getContactList()
 	    +getGroupList()
+	    +addMember2Group()
     }
     class Contact {
 	    +telephone: String

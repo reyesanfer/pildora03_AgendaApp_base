@@ -1,8 +1,8 @@
 package org.ulpgc.is1.control;
 
-import org.ulpgc.is1.model.*;
-
-import java.time.format.DateTimeFormatter;
+import org.ulpgc.is1.model.Agenda;
+import org.ulpgc.is1.model.Contact;
+import org.ulpgc.is1.model.Group;
 
 public class Main {
     public static void main(String[] args) {

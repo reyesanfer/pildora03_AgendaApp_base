@@ -18,7 +18,7 @@ public class Group {
         return name;
     }
 
-    public void addContact(Contact contact) {
+    public void addMember(Contact contact) {
         memberList.add(new Member(contact));
     }
 

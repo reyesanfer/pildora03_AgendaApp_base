@@ -46,4 +46,8 @@ public class Agenda {
         return contactList.size();
     }
 
+
+    public void addMember2Group(Contact contact, Group group) {
+        group.addMember(contact);
+    }
 }
